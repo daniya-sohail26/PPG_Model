@@ -1,5 +1,6 @@
 
 fastapi[all]
+nest-asyncio
 uvicorn
 joblib
 numpy
