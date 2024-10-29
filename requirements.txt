@@ -1,0 +1,8 @@
+
+fastapi[all]
+uvicorn
+joblib
+numpy
+pandas
+pickle-mixin
+tensorflow
