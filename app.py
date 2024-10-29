@@ -1,5 +1,4 @@
 
-import nest_asyncio 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -9,8 +8,6 @@ import pandas as pd
 import pickle
 from tensorflow.keras.models import load_model
 
-# Allow nested event loops
-nest_asyncio.apply()
 
 # Define your FastAPI app
 app = FastAPI()
